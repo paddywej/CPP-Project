@@ -15,8 +15,7 @@ SOURCES += \
     manageauthors.cpp \
     managegenres.cpp \
     newpassword.cpp \
-    signup.cpp \
-    test.cpp
+    signup.cpp
 
 HEADERS += \
     login.h \
@@ -24,8 +23,7 @@ HEADERS += \
     manageauthors.h \
     managegenres.h \
     newpassword.h \
-    signup.h \
-    test.h
+    signup.h
 
 FORMS += \
     login.ui \
@@ -33,8 +31,7 @@ FORMS += \
     manageauthors.ui \
     managegenres.ui \
     newpassword.ui \
-    signup.ui \
-    test.ui
+    signup.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
